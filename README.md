@@ -3,6 +3,7 @@
 
 # レンダリング結果
 ## コーネルボックス
+計算量軽減のためノイズ多め
 ![cornelbox](https://github.com/takara0524/Ray_Tracing/blob/master/Project2/Project2/renderimage/cornelbox.jpg?raw=true)
 ## 拡散
 ![difuse](https://github.com/takara0524/Ray_Tracing/blob/master/Project2/Project2/renderimage/diffuse.jpg?raw=true)
