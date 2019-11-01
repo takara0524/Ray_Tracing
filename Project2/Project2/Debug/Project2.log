@@ -1,0 +1,23 @@
+﻿  rayt.cpp
+c1xx : warning C4199: 2 フェーズの名前参照は、C++/CLI、C++/CX、OpenMP ではサポートされていません。/Zc:twoPhase- を使用します
+c:\users\takara\source\repos\project2\project2\rayt.h(39): warning C4244: 'return': 'double' から 'float' への変換です。データが失われる可能性があります。
+c:\users\takara\source\repos\project2\project2\rayt.h(40): warning C4244: 'return': 'double' から 'float' への変換です。データが失われる可能性があります。
+c:\users\takara\source\repos\project2\project2\rayt.h(92): warning C4244: '=': 'double' から 'float' への変換です。データが失われる可能性があります。
+c:\users\takara\source\repos\project2\project2\rayt.h(93): warning C4244: '=': 'double' から 'float' への変換です。データが失われる可能性があります。
+c:\users\takara\source\repos\project2\project2\rayt.h(161): warning C4244: '初期化中': 'float' から 'int' への変換です。データが失われる可能性があります。
+c:\users\takara\source\repos\project2\project2\rayt.h(162): warning C4244: '初期化中': 'double' から 'int' への変換です。データが失われる可能性があります。
+c:\users\takara\source\repos\project2\project2\rayt.h(172): warning C4244: '引数': 'double' から 'float' への変換です。データが失われる可能性があります。
+c:\users\takara\source\repos\project2\project2\rayt.h(171): warning C4244: '引数': 'double' から 'float' への変換です。データが失われる可能性があります。
+c:\users\takara\source\repos\project2\project2\rayt.h(170): warning C4244: '引数': 'double' から 'float' への変換です。データが失われる可能性があります。
+c:\users\takara\source\repos\project2\project2\rayt.cpp(612): warning C4244: '引数': 'int' から 'float' への変換です。データが失われる可能性があります。
+c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.16.27023\include\memory(2539): warning C4244: '引数': '_Ty' から 'float' への変換です。データが失われる可能性があります。
+          with
+          [
+              _Ty=int
+          ]
+  c:\users\takara\source\repos\project2\project2\rayt.cpp(506): note: コンパイル対象の関数 テンプレート インスタンス化 'std::unique_ptr<rayt::Camera,std::default_delete<_Ty>> std::make_unique<rayt::Camera,vec3&,vec3&,vec3&,int,float&,0>(vec3 &,vec3 &,vec3 &,int &&,float &)' のリファレンスを確認してください
+          with
+          [
+              _Ty=rayt::Camera
+          ]
+  Project2.vcxproj -> C:\Users\takara\source\repos\Project2\Debug\Project2.exe
